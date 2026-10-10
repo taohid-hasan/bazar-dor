@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Navl from './Navl';
 import Link from 'next/link';
@@ -28,10 +29,7 @@ const Header = () => {
                 {' '}
                 বাজারের দর{' '}
               </h1>
-              <p className="text-[12px] leading-[18px] text-gray-500">
-                {' '}
-                {data}{' '}
-              </p>
+              <p className="text-[12px] leading-[18px] text-gray-500">{data}</p>
             </div>
           </Link>
         </div>

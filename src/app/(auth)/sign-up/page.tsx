@@ -44,34 +44,34 @@ const SingUpPage = () => {
       </p>
 
       <form onSubmit={onSubmit}>
-        <fieldset className="fieldset bg-base-200 border-base-300 w-xs rounded-box border p-4">
-          <label className="label">নাম</label>
+        <fieldset className="fieldset bg-[#f8faf9] border-gray-200 w-xs rounded-box border p-4">
+          <label className="label text-gray-700">নাম</label>
           <input
             name="name"
             type="text"
-            className="input w-full"
+            className="input w-full bg-white text-gray-900"
             placeholder="Name"
           />
 
-          <label className="label">ইমেইল</label>
+          <label className="label text-gray-700">ইমেইল</label>
           <input
             name="email"
             type="email"
-            className="input w-full"
+            className="input w-full bg-white text-gray-900"
             placeholder="Email"
           />
 
-          <label className="label">পাসওয়ার্ড</label>
+          <label className="label text-gray-700">পাসওয়ার্ড</label>
           <input
             name="password"
             type="password"
-            className="input w-full"
+            className="input w-full bg-white text-gray-900"
             placeholder="Password"
           />
 
           <button
             type="submit"
-            className="btn mt-4 w-full bg-green-600 text-white hover:bg-green-700"
+            className="btn mt-4 w-full !border !border-green-700/30 !shadow-md !shadow-green-900/20 bg-[#07883f] text-white hover:bg-[#066c33]"
           >
             অ্যাকাউন্ট তৈরি করুন
           </button>
