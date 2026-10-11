@@ -13,7 +13,7 @@
 - Mongodb
 - TypeScript
 - Tailwind CSS
-- Better Auth (Email/Password, Google, GitHub)
+- Better Auth (Email/Password)
 - react-hot-toast
 - react-icons
 - Next.js Dynamic Routing
