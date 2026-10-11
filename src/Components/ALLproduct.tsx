@@ -20,6 +20,7 @@ type Product = {
 };
 
 export default async function ALLproduct() {
+  
   const res = await fetch(
     'https://openapi.programming-hero.com/api/bazardor/products',
     { cache: 'no-store' },

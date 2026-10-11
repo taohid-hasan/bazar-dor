@@ -33,7 +33,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
       <body className="min-h-full flex flex-col">
         <Header />
         <Marquee />
-        <main className="flex-1">
+        <main className="mx-auto w-full max-w-7xl px-1 sm:px-6">
           {children}
         </main>
         <Toaster position="top-right" />

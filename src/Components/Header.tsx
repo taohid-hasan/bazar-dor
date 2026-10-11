@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Navl from './Navl';
 import Link from 'next/link';
@@ -42,7 +41,6 @@ const Header = () => {
       <div className="mx-auto max-w-7xl border-t border-gray-200">
         <Navl />
       </div>
-      <div></div>
     </header>
   );
 };
