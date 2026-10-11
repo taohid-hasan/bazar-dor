@@ -1,3 +1,34 @@
+## Live link
+- https://bazar-dor-r9ow.vercel.app
+
+## Project name
+- বাজার দর (BazarDor)
+
+## Short description
+- BazarDor is a simple and modern market price tracker built for everyday essentials. Users can see today's prices of rice, pulses, oil, vegetables, fish, meat, eggs and spices in one place, check price increases and decreases, browse by category, and view detailed market-wise prices after logging in.
+
+## Technologies used
+- Next.js (App Router)
+- React
+- Mongodb
+- TypeScript
+- Tailwind CSS
+- Better Auth (Email/Password, Google, GitHub)
+- react-hot-toast
+- react-icons
+- Next.js Dynamic Routing
+- REST API
+- Git & GitHub
+- Vercel (Deployment)
+
+## 6 key features of the project
+- Live price ticker (marquee) showing product prices with ▲/▼ change percentage
+- Today's top 6 price risers and top 6 fallers sections on the home page
+- Browse all products and filter by category with a sort option (default, price low to high, price high to low)
+- Protected product details page with minimum, maximum, average and market-wise prices
+- Secure authentication with Email/Password,  login using Better Auth
+- Fully responsive design with skeleton loading, toast notifications and a custom 404 page
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
